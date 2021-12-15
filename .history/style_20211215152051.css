@@ -20,12 +20,6 @@ html, body {
     align-items: center;
 }
 
-.dp > img {
-    width: 50%;
-    height: 100%;
-    border-radius: 100px;
-}
-
 
 
 #container {
@@ -36,8 +30,8 @@ html, body {
     padding-top:200px;  
     position:relative;
     width:30%;
-    bottom:7rem;
-    /* top: 0%; */
+    bottom:45%;
+    top: 10%;
     display:block;
   }
   

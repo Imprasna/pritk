@@ -23,7 +23,7 @@ html, body {
 .dp > img {
     width: 50%;
     height: 100%;
-    border-radius: 100px;
+    
 }
 
 
@@ -36,7 +36,7 @@ html, body {
     padding-top:200px;  
     position:relative;
     width:30%;
-    bottom:7rem;
+    bottom:20%;
     /* top: 0%; */
     display:block;
   }
