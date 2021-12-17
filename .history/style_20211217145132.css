@@ -89,59 +89,6 @@ html, body {
     justify-content: center;
 }
 
-/* About */
-.canvas{
-  max-width:100%;
-  display:flex;
-  flex-direction:column;
-  margin:0 auto;
-  background-color:#BDC9E5;
-  padding:5em;
-}
-.social-icon{
-  max-height:25px;
-  border-radius:50%;
-  margin: 1em 0.5em
-}
-
-.portfolio-img{
-  float: left;
-  max-width:45%;
-  
-  margin:2.5%;
-}
-.form-group{
-  max-width:80%;
-  margin: auto;
-}
-.profile-img{
-  border-radius: 20px;
-  margin: 0 auto;
-  width: 70%;
-}
-.about{
-    background-color: rgba(145,166,211,0.6);
-    padding: 2em;
-}
-.about h4{
-  text-align:right;
-}
-.about-profile{
-  opacity:1;
-}
-
-.row-fluid {
-  display: flex;
-}
-
-.col-md-7 {
-  width: 50%;
-}
-
-.colp-md-5 {
-  width: 50%;
-}
-
 
 .site-footer
 {
@@ -211,7 +158,7 @@ html, body {
   margin-left:6px;
   margin-right:0;
   border-radius:100%;
-  background-color:#818181;
+  background-color:#c1c3c7
 }
 .copyright-text
 {
@@ -221,30 +168,30 @@ html, body {
 {
   .site-footer [class^=col-]
   {
-    margin-bottom:30px;
+    margin-bottom:30px
   }
 }
 @media (max-width:767px)
 {
   .site-footer
   {
-    padding-bottom:0;
+    padding-bottom:0
   }
   .site-footer .copyright-text,.site-footer .social-icons
   {
-    text-align:center;
+    text-align:center
   }
 }
 .social-icons
 {
   padding-left:0;
   margin-bottom:0;
-  list-style:none;
+  list-style:none
 }
 .social-icons li
 {
   display:inline-block;
-  margin-bottom:4px;
+  margin-bottom:4px
 }
 .social-icons li.title
 {
@@ -252,7 +199,7 @@ html, body {
   text-transform:uppercase;
   color:#c1c3c7;
   font-weight:700;
-  font-size:13px;
+  font-size:13px
 }
 .social-icons a{
   background-color:#eceeef;
@@ -267,35 +214,35 @@ html, body {
   border-radius:100%;
   -webkit-transition:all .2s linear;
   -o-transition:all .2s linear;
-  transition:all .2s linear;
+  transition:all .2s linear
 }
 .social-icons a:active,.social-icons a:focus,.social-icons a:hover
 {
   color:#fff;
-  background-color:#29aafe;
+  background-color:#29aafe
 }
 .social-icons.size-sm a
 {
   line-height:34px;
   height:34px;
   width:34px;
-  font-size:14px;
+  font-size:14px
 }
 .social-icons a.facebook:hover
 {
-  background-color:#3b5998;
+  background-color:#3b5998
 }
 .social-icons a.twitter:hover
 {
-  background-color:#00aced;
+  background-color:#00aced
 }
 .social-icons a.linkedin:hover
 {
-  background-color:#007bb6;
+  background-color:#007bb6
 }
 .social-icons a.dribbble:hover
 {
-  background-color:#ea4c89;
+  background-color:#ea4c89
 }
 @media (max-width:767px)
 {
@@ -303,6 +250,6 @@ html, body {
   {
     display:block;
     margin-right:0;
-    font-weight:600;
+    font-weight:600
   }
 }
