@@ -175,7 +175,7 @@ progress {
 }
 
 progress::-webkit-progress-bar {
-  background-color: #bfe7ff;
+  background-color: #004169;
 }
 
 progress::-webkit-progress-value {

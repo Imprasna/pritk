@@ -144,21 +144,8 @@ html, body {
 
 
 /* Skills */
-#skills {
-  width: 100%;
-  background: #eeeeee;
-  height: 100%;
-}
-
-.skills  {
-  width: 80%;
-  margin: 0 auto;
-  padding-top: 5rem;
-  padding-bottom: 3rem;
-}
-
 #skills span {
-  top: -40px;
+  top: -25px;
   left: 2%;
   position: relative;
   font-size: 1.4em;
@@ -175,7 +162,7 @@ progress {
 }
 
 progress::-webkit-progress-bar {
-  background-color: #bfe7ff;
+  background-color: #e0eaf0;
 }
 
 progress::-webkit-progress-value {

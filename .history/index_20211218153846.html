@@ -6,7 +6,6 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
-  <script src="https://kit.fontawesome.com/52dce4641c.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
     integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
   <script src="node_modules/confetti-js/dist/index.min.js"></script>
@@ -97,18 +96,6 @@
         </div>
     </section>
 
-    <section id="skills">
-      <div class="skills">
-      <h1>Skills</h1>
-      <progress value="16" max="100"></progress><span>JavaScript/jQuery</span>
-      <progress value="50" max="100"></progress><span>HTML5/CSS3</span>
-      <progress value="45" max="100"></progress><span>Wordpress</span>
-      <progress value="10" max="100"></progress><span>PHP</span>
-      <progress value="20" max="100"></progress><span>MySQL</span>
-      <progress value="40" max="100"></progress><span>Photoshop</span>
-    </div>
-    </section>
-
     <section>
       <div class="two">
         <div class="progress">
@@ -117,6 +104,15 @@
         </div>
         <h1>This is the where you are heading to see the surprise...!</h1>
       </div>
+    </section>
+
+    <section id="skills">
+      <progress value="80" max="100"></progress><span>JavaScript/jQuery</span>
+      <progress value="70" max="100"></progress><span>HTML5/CSS3</span>
+      <progress value="60" max="100"></progress><span>NodeJS</span>
+      <progress value="70" max="100"></progress><span>Java/PHP</span>
+      <progress value="60" max="100"></progress><span>MySQL</span>
+      <progress value="80" max="100"></progress><span>Photoshop</span>
     </section>
 
 
@@ -172,7 +168,7 @@
           <ul class="social-icons">
             <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
             <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
-            <!-- <li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li> -->
+            <li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
             <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
           </ul>
         </div>
@@ -186,6 +182,35 @@
 
 
 
+
+  <!-- <script>
+    $(function () {
+      $('progress').each(function () {
+        var max = $(this).val();
+        $(this).val(0).animate({
+          value: max
+        }, {
+          duration: 2000,
+          easing: 'easeOutCirc'
+        });
+      });
+    });
+  </script> -->
+
+
+  <!-- <script>
+    $(function () {
+      $('progress').each(function () {
+        var max = $(this).val();
+        $(this).val(0).animate({
+          value: max
+        }, {
+          duration: 2000,
+          easing: 'easeOutCirc'
+        });
+      });
+    });
+  </script> -->
   <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
   </script>
@@ -195,6 +220,8 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"
     integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous">
   </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.0/gsap.min.js" integrity="sha512-gWlyRVDsJvp5kesJt4cSdPPLZIBdln/uSwzYgUicQcbTgRNQE4QhP5KUBIYlLYLkiKIQiuD7KUMHzqGNW/D2bQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
   <script src="app.js"></script>
 
 </body>
