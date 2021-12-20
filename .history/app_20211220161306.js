@@ -323,17 +323,17 @@ const projects = [
 	{
 		nr: '004',
 		name: 'Project 4',
-		link: 'https://images.pexels.com/photos/7971198/pexels-photo-7971198.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260'
+		link: 'https://codepen.io/FlorinPop17/full/NWKELoq'
 	},
 	{
 		nr: '005',
 		name: 'Project 5',
-		link: 'https://images.pexels.com/photos/941555/pexels-photo-941555.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260'
+		link: 'https://codepen.io/FlorinPop17/full/QWLzdrV'
 	},
 	{
 		nr: '006',
 		name: 'Project 6',
-		link: 'https://images.pexels.com/photos/6615107/pexels-photo-6615107.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260'
+		link: 'https://codepen.io/FlorinPop17/full/gOYZxyE'
 	},
 ];
 

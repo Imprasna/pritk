@@ -333,7 +333,7 @@ const projects = [
 	{
 		nr: '006',
 		name: 'Project 6',
-		link: 'https://images.pexels.com/photos/6615107/pexels-photo-6615107.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260'
+		link: 'https://codepen.io/FlorinPop17/full/gOYZxyE'
 	},
 ];
 

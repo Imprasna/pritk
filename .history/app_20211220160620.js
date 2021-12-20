@@ -303,37 +303,37 @@ $(function() {
 });
 
 
-// projects
+
 const projects = [
 	{
 		nr: '001',
-		name: 'Project 1',
-		link: 'https://images.pexels.com/photos/8872196/pexels-photo-8872196.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260'
+		name: 'Random Meal Generator',
+		link: 'https://codepen.io/FlorinPop17/full/WNeggor'
 	},
 	{
 		nr: '002',
-		name: 'Project 2',
-		link: 'https://images.pexels.com/photos/7692471/pexels-photo-7692471.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260'
+		name: '2019 Mood Calendar',
+		link: 'https://codepen.io/FlorinPop17/full/eYOPdER'
 	},
 	{
 		nr: '003',
-		name: 'Project 3',
-		link: 'https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260'
+		name: 'Double Noise Flow Field',
+		link: 'https://codepen.io/FlorinPop17/full/GRKwmgK'
 	},
 	{
 		nr: '004',
-		name: 'Project 4',
-		link: 'https://images.pexels.com/photos/7971198/pexels-photo-7971198.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260'
+		name: 'Catch the insect',
+		link: 'https://codepen.io/FlorinPop17/full/NWKELoq'
 	},
 	{
 		nr: '005',
-		name: 'Project 5',
-		link: 'https://images.pexels.com/photos/941555/pexels-photo-941555.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260'
+		name: 'User Profile Design',
+		link: 'https://codepen.io/FlorinPop17/full/QWLzdrV'
 	},
 	{
 		nr: '006',
-		name: 'Project 6',
-		link: 'https://images.pexels.com/photos/6615107/pexels-photo-6615107.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260'
+		name: 'Pokedex',
+		link: 'https://codepen.io/FlorinPop17/full/gOYZxyE'
 	},
 ];
 
