@@ -404,20 +404,3 @@ body {
 }
 
 
-.two {
-  width: 30%;
-  margin: 0 auto;
-  height: 50vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  position: absolute;
-  bottom: -12rem;
-  left: 1%;
-}
-
-.two > h1 {
-  font-size: 1.5rem;
-  margin-top: 1rem;
-  text-align: center;
-}

@@ -412,12 +412,6 @@ body {
   flex-direction: column;
   justify-content: center;
   position: absolute;
-  bottom: -12rem;
-  left: 1%;
-}
-
-.two > h1 {
-  font-size: 1.5rem;
-  margin-top: 1rem;
-  text-align: center;
+  bottom: -10rem;
+  left: 4%;
 }
